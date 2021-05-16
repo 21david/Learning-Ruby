@@ -8,7 +8,7 @@ end
 
 puts 2 + 10* 8 + 100.0 * 3 + 1000 * 9
 
-p '42'
+p '42'  # 'p' is the same as 'puts' but shows quotations if its a string (it gives more info on the type of the value)
 p 42
 
 line #------------------------------------
@@ -77,7 +77,6 @@ line #------------------------------------
 
 
 # LOOPS
-
 counter = 1
 while counter <= 6
     print "Hello\n"[counter-1]
