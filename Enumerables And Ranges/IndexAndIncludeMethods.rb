@@ -7,8 +7,8 @@ arr = ["SF", "NY", "LA", "TX", "OK", "FL"]
 # .index() gets the index of an element in an array
 puts arr.index("TX")  # 3
 
-# returns nothing for elements not in the array
-puts arr.index("WA") # doesn't return anything
+# returns nil for elements not in the array
+puts arr.index("WA") # puts doesn't print 'nil', but we get back nil (p prints 'nil')
 
 
 # .include?() returns a boolean, true/false whether its in the array or not
